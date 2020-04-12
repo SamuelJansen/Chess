@@ -1,10 +1,7 @@
 if __name__ == '__main__' :
     from domain.control import PathMannanger
-    PathMannanger.PathMannanger(mode = 'WRONG_WAY_TO_MAKE_IT_WORKS')
+    pathMannanger = PathMannanger.PathMannanger(printStatus = True)
 
-import Chess
+    import Chess
 
-chess = Chess.Chess()
-
-if __name__ == '__main__' :
-    chess.run()
+    Chess.Chess(pathMannanger).run()

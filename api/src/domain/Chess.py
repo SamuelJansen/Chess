@@ -1,3 +1,9 @@
-import Application
+import Application, Header, ItemDto
 
-application = Application.Application() 
+import settingFunction, exitChess
+
+class Chess(Application.Application):
+
+    def __init__(self,pathMannanger):
+
+        Application.Application.__init__(self,pathMannanger,floor=True)
