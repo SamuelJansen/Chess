@@ -1,7 +1,6 @@
 if __name__ == '__main__' :
-    from domain.control import PathMannanger
-    pathMannanger = PathMannanger.PathMannanger(printStatus = True)
+    from domain.control import Globals
+    globals = Globals.Globals(debugStatus = True)
 
     import Chess
-
-    Chess.Chess(pathMannanger).run()
+    Chess.Chess(globals).run()

@@ -1,0 +1,9 @@
+Globals:
+  update-globals: True
+  print-status: True
+  api:
+    list: [Globals,Application,Chess]
+    extension: chess
+    dependency:
+      update: True
+      list: [pygame,numpy,Popen,Path]

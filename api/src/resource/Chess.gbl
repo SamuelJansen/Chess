@@ -1,6 +1,0 @@
-Globals:
-  api:
-    list: [Application,Chess]
-  extension: gbl
-Chess:
-  extension: chess
